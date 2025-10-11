@@ -537,3 +537,33 @@ header {
     }
   }
 }
+
+.section-3 {
+  background-color: var(--background-white-secondary);
+  padding: 1.5rem 0;
+
+  .container-section-3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    .container-section-3-text {
+      width: 60%;
+      margin: auto;
+      margin-top: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      text-wrap: balance;
+    }
+  }
+}
