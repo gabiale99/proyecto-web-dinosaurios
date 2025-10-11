@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --background-color-primary: #595800;
+  --background-color-secondary: #b54d10;
+
+  --background-white-primary: #fcf9f2;
+  --background-white-secondary: #f5f1eb;
+
+  --text-primary: #291f17;
+  --text-secondary: #fcf9f2;
+  --text-2: #ede9dd;
+  --text-3: #6b6057;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
