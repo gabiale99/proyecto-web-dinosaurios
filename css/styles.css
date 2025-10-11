@@ -13,6 +13,8 @@
   --text-secondary: #fcf9f2;
   --text-2: #ede9dd;
   --text-3: #6b6057;
+
+  --shadow: rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -540,7 +542,7 @@ header {
 
 .section-3 {
   background-color: var(--background-white-secondary);
-  padding: 1.5rem 0;
+  padding: 6rem 0;
 
   .container-section-3 {
     width: 80%;
@@ -554,6 +556,7 @@ header {
     p {
       font-family: "Roboto", sans-serif;
       font-size: 1.2rem;
+      color: var(--text-3);
     }
 
     .container-section-3-text {
@@ -570,7 +573,7 @@ header {
 
 .section-4 {
   background-color: var(--background-white-primary);
-  padding: 1.5rem 0;
+  padding: 6rem 0;
 
   .container-section-4 {
     width: 80%;
@@ -592,6 +595,7 @@ header {
         background-color: white;
         border-radius: 0.5rem;
         padding: 1rem;
+        box-shadow: 0 5px 15px -4px var(--shadow);
         transition: 0.3s ease-in-out;
 
         a {
@@ -659,6 +663,46 @@ header {
               transform: translateX(4px);
             }
           }
+        }
+      }
+    }
+  }
+}
+
+.secction-5 {
+  background-color: var(--background-white-secondary);
+  padding: 6rem 0;
+
+  .container-section-5 {
+    width: 80%;
+    margin: auto;
+
+    h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .container-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      padding: 2rem 0;
+
+      .container-card-section-5 {
+        padding: 1.5rem;
+        background-color: white;
+        border: 1px solid #d9d5ce;
+        border-radius: 0.6rem;
+        box-shadow: 0 5px 15px -4px var(--shadow);
+
+        h3 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          font-family: "Roboto", sans-serif;
+          color: var(--text-3);
         }
       }
     }
