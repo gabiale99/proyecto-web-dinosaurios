@@ -567,3 +567,100 @@ header {
     }
   }
 }
+
+.section-4 {
+  background-color: var(--background-white-primary);
+  padding: 1.5rem 0;
+
+  .container-section-4 {
+    width: 80%;
+    margin: auto;
+
+    h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .container-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1rem;
+      padding: 1.5rem 0;
+
+      .container-card-section-4 {
+        background-color: white;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        transition: 0.3s ease-in-out;
+
+        a {
+          text-decoration: none;
+        }
+
+        .icono-text {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          margin-bottom: 1rem;
+
+          svg {
+            color: var(--background-color-primary);
+            background-color: #edece1;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0.4rem;
+            border-radius: 0.4rem;
+          }
+
+          h3 {
+            font-size: 2rem;
+            color: var(--text-primary);
+          }
+        }
+
+        .secondary {
+          svg {
+            background-color: #f0e8e4;
+            color: var(--background-color-secondary);
+          }
+        }
+
+        p {
+          font-family: "Roboto", sans-serif;
+          color: var(--text-3);
+        }
+
+        .text-card-section-4 {
+          margin-bottom: 2rem;
+        }
+
+        .conteiner-section-2-icono {
+          display: flex;
+          align-items: center;
+          margin-top: 1rem;
+
+          a {
+            font-family: "Roboto", sans-serif;
+            color: var(--background-color-primary);
+          }
+
+          svg {
+            color: var(--background-color-primary);
+            transition: 0.3s ease-in-out;
+          }
+        }
+
+        &:hover {
+          outline: 0.1rem solid var(--background-color-primary);
+
+          .conteiner-section-2-icono {
+            svg {
+              transform: translateX(4px);
+            }
+          }
+        }
+      }
+    }
+  }
+}
