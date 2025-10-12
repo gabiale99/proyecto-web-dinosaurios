@@ -647,6 +647,8 @@ header {
   }
 }
 
+/* Sección 3 */
+
 .section-3 {
   background-color: var(--background-white-secondary);
   padding: 6rem 0;
@@ -677,6 +679,22 @@ header {
     }
   }
 }
+
+/* Sección 3 móvil */
+
+@media screen and (max-width: 430px) {
+  .section-3 {
+    .container-section-3 {
+      width: 100%;
+
+      .container-section-3-text {
+        width: 90%;
+      }
+    }
+  }
+}
+
+/* Sección 4 */
 
 .section-4 {
   background-color: var(--background-white-primary);
@@ -771,6 +789,21 @@ header {
             }
           }
         }
+      }
+    }
+  }
+}
+
+/* Sección 4 móvil */
+
+@media screen and (max-width: 430px) {
+  .section-4 {
+    .container-section-4 {
+      width: 90%;
+
+      .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
       }
     }
   }
