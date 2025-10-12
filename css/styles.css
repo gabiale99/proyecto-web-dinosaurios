@@ -809,6 +809,8 @@ header {
   }
 }
 
+/* Sección 5 */
+
 .secction-5 {
   background-color: var(--background-white-secondary);
   padding: 6rem 0;
@@ -844,6 +846,21 @@ header {
           font-family: "Roboto", sans-serif;
           color: var(--text-3);
         }
+      }
+    }
+  }
+}
+
+/* Sección 5 móvil */
+
+@media screen and (max-width: 430px) {
+  .secction-5 {
+    .container-section-5 {
+      width: 90%;
+
+      .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
       }
     }
   }
@@ -947,6 +964,31 @@ footer {
             color: var(--background-color-primary);
           }
         }
+      }
+    }
+  }
+}
+
+/* Footer móvil */
+
+@media screen and (max-width: 430px) {
+  footer {
+    .container-footer-links {
+      width: 90%;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .container-derechos {
+      width: 90%;
+      margin: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      span {
+        text-align: center;
       }
     }
   }
