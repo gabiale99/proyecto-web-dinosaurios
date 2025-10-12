@@ -109,8 +109,9 @@ header {
 
 /* Header móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   header {
+    position: static;
     padding-bottom: 1.6rem;
 
     .header {
@@ -225,7 +226,7 @@ header {
 
 /* Hero móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .hero {
     .container-hero {
       height: 60rem;
@@ -621,7 +622,7 @@ header {
 
 /* bento móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .section-2 {
     padding: 1.5rem 0.5rem;
 
