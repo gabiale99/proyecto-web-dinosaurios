@@ -728,3 +728,104 @@ header {
     }
   }
 }
+
+footer {
+  background-color: #ffffff;
+  padding: 2rem 0;
+
+  .container-footer-links {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d9d5ce;
+
+    .container-link {
+      p {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2rem;
+        color: var(--background-color-primary);
+        margin-bottom: 1rem;
+      }
+
+      small {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: var(--text-3);
+      }
+
+      ul {
+        li {
+          list-style: none;
+          margin-bottom: 0.6rem;
+
+          a {
+            font-family: "Roboto", sans-serif;
+            text-decoration: none;
+            color: var(--text-3);
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              color: var(--background-color-primary);
+            }
+          }
+        }
+      }
+
+      .container-redes {
+        display: flex;
+        gap: 1rem;
+
+        svg {
+          background-color: var(--text-2);
+          width: 2.5rem;
+          height: 2.5rem;
+          padding: 0.6rem;
+          color: var(--text-primary);
+          border-radius: 50%;
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            background-color: var(--background-color-primary);
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .container-derechos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+
+    span {
+      font-family: "Roboto", sans-serif;
+      color: var(--text-3);
+    }
+
+    ul {
+      display: flex;
+      gap: 0.6rem;
+
+      li {
+        list-style: none;
+
+        a {
+          font-family: "Roboto", sans-serif;
+          text-decoration: none;
+          color: var(--text-3);
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            color: var(--background-color-primary);
+          }
+        }
+      }
+    }
+  }
+}
