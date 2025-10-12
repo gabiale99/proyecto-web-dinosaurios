@@ -290,7 +290,7 @@ header {
             rgba(120, 128, 68, 0.75),
             rgba(120, 128, 68, 0.75)
           ),
-          url("../src/img/bento/rex.jpg");
+          url("../src/img/bento/rex.png");
         background-size: cover;
         background-position: top;
 
@@ -371,7 +371,7 @@ header {
             rgba(186, 122, 60, 0.75),
             rgba(186, 122, 60, 0.75)
           ),
-          url("../src/img/bento/brachiosaurus.jpg");
+          url("../src/img/bento/brachiosaurus.png");
         background-size: cover;
 
         .container-card-brachio {
@@ -427,7 +427,7 @@ header {
             rgba(156, 110, 98, 0.75),
             rgba(156, 110, 98, 0.75)
           ),
-          url("../src/img/bento/triceratops.jpg");
+          url("../src/img/bento/triceratops.png");
         background-size: cover;
 
         flex-direction: column;
@@ -490,7 +490,7 @@ header {
             rgba(49, 31, 87, 0.75),
             rgba(49, 31, 87, 0.75)
           ),
-          url("../src/img/bento/velociraptor.webp");
+          url("../src/img/bento/velociraptor.png");
         background-size: cover;
 
         flex-direction: column;
@@ -556,7 +556,7 @@ header {
             rgba(244, 210, 200, 0.75),
             rgba(244, 210, 200, 0.75)
           ),
-          url("../src/img/bento/stegosaurus.webp");
+          url("../src/img/bento/stegosaurus.png");
         background-size: cover;
         background-position: center;
 
@@ -576,7 +576,7 @@ header {
           p {
             font-family: "Roboto", sans-serif;
             font-size: 1.2rem;
-            color: var(--text-primary);
+            color: var(--text-2);
             line-height: 1.4;
 
             opacity: 0;
