@@ -993,3 +993,19 @@ footer {
     }
   }
 }
+
+/* Footer tablet */
+
+@media screen and (min-width: 431px) and (max-width: 1024px) {
+  footer {
+    .container-footer-links {
+      width: 90%;
+      flex-direction: column;
+    }
+
+    .container-derechos {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}
