@@ -32,7 +32,8 @@ h4 {
 
 p,
 span,
-small {
+small,
+li {
   font-family: "Roboto", sans-serif;
 }
 
@@ -180,6 +181,106 @@ main {
     .text {
       font-size: 1.2rem;
       margin-bottom: 1rem;
+    }
+
+    .container-card {
+      background-color: #ffffff;
+      padding: 1.2rem;
+      border-radius: 0.6rem;
+      border: 1px solid #d9d5ce;
+      box-shadow: 0 5px 15px -4px var(--shadow);
+      margin-bottom: 2rem;
+
+      .container-hero-card {
+        background-color: #f2f0eb;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+
+        .container-text-hero {
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+
+          h2 {
+            font-size: 2.5rem;
+          }
+
+          span {
+            font-size: 1.2rem;
+            padding: 0.3rem;
+            border-radius: 0.4rem;
+            color: #ffffff;
+          }
+
+          .comida {
+            background-color: #e8000c;
+          }
+
+          .comida2 {
+            background-color: var(--background-color-secondary);
+          }
+        }
+
+        .text-hero {
+          color: var(--text-3);
+
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      h3 {
+        margin-top: 2.5rem;
+        font-size: 1.7rem;
+      }
+
+      .container-list {
+        display: flex;
+        gap: 8rem;
+
+        .list {
+          margin-top: 1rem;
+          ul {
+            padding: 0 1rem;
+            li {
+              margin-bottom: 0.5rem;
+              font-size: 1.2rem;
+              color: var(--text-3);
+            }
+          }
+        }
+      }
+
+      .container-ejmplos {
+        display: flex;
+        gap: 1rem;
+        padding: 0.5rem 0;
+
+        span {
+          border: 1px solid #dad7d0;
+          padding: 0.3rem 0.8rem;
+          border-radius: 0.4rem;
+          background-color: var(--text-secondary);
+        }
+      }
+    }
+
+    .container-pregunta {
+      background-color: var(--background-color-primary);
+      padding: 1.5rem 1rem;
+      border-radius: 0.4rem;
+      box-shadow: 0 5px 15px -4px var(--shadow);
+      color: #f5f1eb;
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
     }
   }
 }
