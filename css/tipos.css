@@ -285,6 +285,32 @@ main {
   }
 }
 
+/* main móvil */
+
+@media screen and (max-width: 430px) {
+  main {
+    .section-main {
+      width: 90%;
+
+      .text {
+        text-align: center;
+      }
+
+      .container-card {
+        .container-list {
+          flex-direction: column;
+          gap: 0rem;
+        }
+
+        .container-ejmplos {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
 /* Footer */
 
 footer {
