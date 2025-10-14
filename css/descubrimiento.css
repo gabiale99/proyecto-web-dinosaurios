@@ -441,6 +441,49 @@ main {
   }
 }
 
+/* Main móvil */
+
+@media screen and (max-width: 430px) {
+  main {
+    .container-title {
+      h1 {
+        text-align: center;
+      }
+    }
+
+    .section-1 {
+      .container-card-pasos {
+        .container-pasos {
+          .container-span {
+            background-color: transparent;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .section-2 {
+      .container-cards {
+        .container-card {
+          .card-hero {
+            text-align: center;
+            .hero-title {
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+
+    .section-3 {
+      .grid-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
 /* Footer */
 
 footer {
