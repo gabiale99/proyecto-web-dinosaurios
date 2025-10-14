@@ -456,6 +456,35 @@ main {
     }
   }
 }
+
+/* Main móvil */
+
+@media screen and (max-width: 430px) {
+  main {
+    .section-1 {
+      h1 {
+        text-align: center;
+      }
+    }
+
+    .section-3 {
+      .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+      }
+    }
+
+    .section-4 {
+      .container-vivio {
+        .grid {
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(4, 1fr);
+        }
+      }
+    }
+  }
+}
+
 /* Footer */
 
 footer {
