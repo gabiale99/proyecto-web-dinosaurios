@@ -377,18 +377,6 @@ main {
         line-height: 1.4;
       }
     }
-
-    .container-grid {
-      .card-2 {
-        grid-column: 1/-1;
-        grid-row: 2/3;
-      }
-
-      .card-3 {
-        grid-column: 1/-1;
-        grid-row: 3/4;
-      }
-    }
   }
 }
 
@@ -404,6 +392,18 @@ main {
       .container-periodo {
         flex-direction: column;
         gap: 1rem;
+      }
+
+      .container-grid {
+        .card-2 {
+          grid-column: 1/-1;
+          grid-row: 2/3;
+        }
+
+        .card-3 {
+          grid-column: 1/-1;
+          grid-row: 3/4;
+        }
       }
     }
   }
