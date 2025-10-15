@@ -43,7 +43,7 @@ li {
 header {
   display: flex;
   padding: 0.8rem 0;
-  background-color: #ffffff;
+  background-color: var(--background-white-primary);
 
   position: sticky;
   top: 0;
@@ -72,6 +72,14 @@ header {
 
         h1 {
           color: var(--text-primary);
+        }
+      }
+
+      .nav_targer {
+        display: none;
+
+        svg {
+          color: red;
         }
       }
     }
@@ -135,10 +143,23 @@ header {
       gap: 2rem;
 
       .container-logo {
+        align-items: center;
         font-size: 2rem;
+        gap: 1rem;
+
+        .nav_targer {
+          display: block;
+
+          svg {
+            color: var(--text-primary);
+            height: 3rem;
+            width: 3rem;
+          }
+        }
       }
 
       nav {
+        transition: 0.3s ease-in-out;
         ul {
           flex-direction: column;
 
@@ -149,6 +170,14 @@ header {
             }
           }
         }
+      }
+
+      #menu {
+        display: none;
+      }
+
+      #menu.active {
+        display: block;
       }
     }
   }

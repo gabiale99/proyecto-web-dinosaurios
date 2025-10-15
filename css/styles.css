@@ -66,6 +66,14 @@ header {
           color: var(--text-primary);
         }
       }
+
+      .nav_targer {
+        display: none;
+
+        svg {
+          color: red;
+        }
+      }
     }
 
     nav {
@@ -127,10 +135,23 @@ header {
       gap: 2rem;
 
       .container-logo {
+        align-items: center;
         font-size: 2rem;
+        gap: 1rem;
+
+        .nav_targer {
+          display: block;
+
+          svg {
+            color: var(--text-primary);
+            height: 3rem;
+            width: 3rem;
+          }
+        }
       }
 
       nav {
+        transition: 0.3s ease-in-out;
         ul {
           flex-direction: column;
 
@@ -141,6 +162,14 @@ header {
             }
           }
         }
+      }
+
+      #menu {
+        display: none;
+      }
+
+      #menu.active {
+        display: block;
       }
     }
   }
